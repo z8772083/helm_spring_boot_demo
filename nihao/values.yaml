@@ -14,7 +14,8 @@ nameOverride: ""
 fullnameOverride: ""
 
 container:
-  port: 8080
+  port: 8090
+  livepath: /actuator/health
 
 service:
   type: ClusterIP
